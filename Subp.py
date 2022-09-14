@@ -6,7 +6,7 @@ def creare_lista():
         if isinstance(elem, float)==True:
             lista_locala.append(float(elem))
         else: 
-            print("Elementul "+str(i)+" nu este numar intreg")
+            return
     return lista_locala
 
 lista1 = creare_lista()
