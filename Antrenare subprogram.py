@@ -3,7 +3,7 @@ def creare_lista():
     lista_locala = []
     for i in range(n):
         elem = eval(input("Elementul "+str(i)+' este:'))
-        if isinstance(elem, int)==True or isinstance(elem, float):
+        if isinstance(elem, int)==True:
             lista_locala.append(int(elem))
         else: 
             print(elem+" nu este numar intreg")
